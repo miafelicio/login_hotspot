@@ -44,7 +44,7 @@
     <div class="ie-fixMinHeight">
         <div class="main">
             <div class="wrap animated fadeIn">
-                <form name="login" action="$(link-login-only)" method="post" $(if chap-id)
+                <form name="login" action="cadastro.html" method="post" $(if chap-id)
                     onSubmit="return fazerLogin()" $(endif)>
                     <input type="hidden" name="dst" value="$(link-orig)" />
                     <input type="hidden" name="popup" value="true" />
@@ -80,9 +80,9 @@
                                 <input name="" type="password" placeholder="" class="puts" />
                             </div>
 
-                            <button type="submit" value="Conectar" class="botao" id="botao_1">Conectar</button>
-                            <button type="submit" value="Não tem um cadastro?" class="botao" id="botao_2">Não tem um
-                                cadastro?</button>
+                            <button type="submit" value="Conectar" class="botao" id="botao_1"><a href="alogin.html"></a>Conectar</button>
+                            <button type="submit" value="Não tem um cadastro?" class="botao" id="botao_2">
+                                <a href="cadastro.html">Não tem um cadastro?</a></button>
 
                             <div class="img_respon">
                                 <img src="../hotspot_login-main/img/respon.svg" alt="">

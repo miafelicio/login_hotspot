@@ -75,7 +75,7 @@ input, button {
 
 .puts {
     margin-bottom: 48px;
-    padding-right: 5px;
+    padding-right: px;
 }
 
 .botao {
@@ -120,7 +120,12 @@ textarea:focus, input:focus {
     width: 0px;
 }
 
-@media (max-width: 550px){
+a{
+    text-decoration: none;
+    color: #EA0032;
+}
+
+@media (max-width: 991px){
 
     #box{
         width: 0px;
@@ -128,7 +133,7 @@ textarea:focus, input:focus {
     }
 
     #lado_vermelho{
-        width: 550px;
+        width: 991px;
         height: 654px;
 
     }
